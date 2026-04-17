@@ -1,0 +1,103 @@
+# =========================
+# OS FILES
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# VS CODE
+# =========================
+.vscode/
+!.vscode/settings.json
+!.vscode/extensions.json
+!.vscode/launch.json
+
+# =========================
+# NODE / FRONTEND (hvis du senere bruger npm)
+# =========================
+node_modules/
+dist/
+build/
+.env
+
+# =========================
+# LOG FILES
+# =========================
+*.log
+logs/
+
+# =========================
+# .NET BUILD FILES
+# =========================
+bin/
+obj/
+out/
+
+# =========================
+# USER-SPECIFIC FILES
+# =========================
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# =========================
+# VISUAL STUDIO
+# =========================
+.vs/
+
+# =========================
+# DATABASE / LOCAL CONFIG
+# =========================
+*.mdf
+*.ldf
+*.db
+*.sqlite
+*.sqlite3
+
+# =========================
+# APP SETTINGS (sensitive)
+# =========================
+backend/appsettings.Development.json
+backend/appsettings.Local.json
+
+# =========================
+# SECRETS / KEYS
+# =========================
+*.key
+*.pem
+*.pfx
+
+# =========================
+# TEMP FILES
+# =========================
+tmp/
+temp/
+*.tmp
+
+# =========================
+# PACKAGE FILES
+# =========================
+*.nupkg
+packages/
+
+# =========================
+# TEST OUTPUT
+# =========================
+TestResults/
+
+# =========================
+# FRONTEND CACHE
+# =========================
+.cache/
+.parcel-cache/
+
+# =========================
+# DOCKER (if added later)
+# =========================
+docker-compose.override.yml
+
+# =========================
+# OPTIONAL: IGNORE SQL BACKUPS
+# =========================
+*.bak
